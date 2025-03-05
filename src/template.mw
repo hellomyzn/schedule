@@ -1,0 +1,112 @@
+title: 20xx
+
+section #year 20xx
+
+    section #quarter q1
+        20xx-01-01/20xx-03-31: #quarter Q1
+
+        // study
+        group #study study
+            group #tech tech
+                20xx-01-01/20xx-01-07: #todo todo
+            endGroup
+
+            group #english english
+                20xx-01-01/20xx-01-07: #todo todo
+            endGroup
+        endGroup
+
+        group #book books
+            20xx-01-01/1week: #wip book
+            after/1week: #todo book
+            after/1week: #done book
+
+            group #tech tech
+                20xx-01-01/1month: #todo hoge
+                20xx-02-01/1month: #todo hoge
+                20xx-03-01/1month: #todo hoge
+            endGroup
+        endGroup
+    endSection
+
+    section #quarter q2
+        20xx-04-01/20xx-06-30: #quarter Q2
+
+        // study
+        group #study study
+            group #tech tech
+                20xx-04-01/20xx-04-07: #todo todo
+            endGroup
+
+            group #english english
+                20xx-04-01/20xx-04-07: #todo todo
+            endGroup
+        endGroup
+
+        group #book books
+            20xx-04-01/1week: #wip book
+            after/1week: #todo book
+            after/1week: #done book
+
+            group #tech tech
+                20xx-04-01/1month: #todo hoge
+                20xx-05-01/1month: #todo hoge
+                20xx-06-01/1month: #todo hoge
+            endGroup
+        endGroup
+    endSection
+
+    section #quarter q3
+        20xx-07-01/20xx-09-30: #quarter Q3
+
+        // study
+        group #study study
+            group #tech tech
+                20xx-07-01/20xx-07-07: #todo todo
+            endGroup
+
+            group #english english
+                20xx-07-01/20xx-07-07: #todo todo
+            endGroup
+        endGroup
+
+        group #book books
+            20xx-07-01/1week: #wip book
+            after/1week: #todo book
+            after/1week: #done book
+
+            group #tech tech
+                20xx-07-01/1month: #todo hoge
+                20xx-08-01/1month: #todo hoge
+                20xx-09-01/1month: #todo hoge
+            endGroup
+        endGroup
+    endSection
+
+    section #quarter q4
+        20xx-10-01/20xx-12-31: #quarter Q4
+
+        // study
+        group #study study
+            group #tech tech
+                20xx-10-01/20xx-10-07: #todo todo
+            endGroup
+
+            group #english english
+                20xx-10-01/20xx-10-07: #todo todo
+            endGroup
+        endGroup
+
+        group #book books
+            20xx-10-01/1week: #wip book
+            after/1week: #todo book
+            after/1week: #done book
+
+            group #tech tech
+                20xx-10-01/1month: #todo hoge
+                20xx-11-01/1month: #todo hoge
+                20xx-12-01/1month: #todo hoge
+            endGroup
+        endGroup
+    endSection
+endSection
