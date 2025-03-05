@@ -1,18 +1,112 @@
-title: schedule
-section 2025
-  group study
-    group tech
-      2024-01-01/2024-01-14: 要件の整理 #requirements_definition
-      2024-01-15/2024-02-04: 設計 #hoge 
-        - [x] タスク1
-        - [x] タスク2
-        - [ ] タスク3
-    endGroup
-    group english
-      2 days: イベント3 #baz
-      after/2 days: イベント4 #qux
-    endGroup
-  endGroup
-endSection
+title: 2025
 
-every 1 week: 1週間ごとに繰り返す #foo
+section #year 2025
+
+    section #quarter q1
+        2025-01-01/2025-03-31: #quarter Q1
+
+        // study
+        group #study study
+            group #tech tech
+                2025-03-06/2025-03-13: #todo 電子記事販売WebアプリケーションをNext.jsをフル活用して実践力を身に着けるWeb開発マスター講座
+                2025-03-13/2025-03-19: #todo Next.jsアプリを作成する App Router
+            endGroup
+
+            group #english english
+                2025-03-06/2025-03-13: #todo distinction 1
+            endGroup
+        endGroup
+
+        group #book books
+            2025-02-24/2week: #wip "ゆるストイック――ノイズに邪魔されず１日を積み上げる思考
+            after/1week: #todo 「人生が充実する」時間のつかい方 UCLAのMBA教授が教える“いつも時間に追われる自分”をやめるメソッド 
+            after/1week: #todo 限りある時間の使い方
+            after/1week: #todo いつも「時間がない」あなたに　欠乏の行動経済学 
+
+            group #tech tech
+                2025-03-01/1month: #todo 1冊ですべて身につくHTML & CSSとWebデザイン入門講座［第2版］ （DL特典：Webデザイナーのポートフォリオの作り方入門講座） (１冊ですべて身につく) 
+            endGroup
+        endGroup
+    endSection
+
+    section #quarter q2
+        2025-04-01/2025-06-30: #quarter Q2
+
+        // study
+        group #study study
+            group #tech tech
+                2025-04-01/2025-04-07: #todo todo
+            endGroup
+
+            group #english english
+                2025-04-01/2025-04-07: #todo todo
+            endGroup
+        endGroup
+
+        group #book books
+            2025-04-01/1week: #wip book
+            after/1week: #todo book
+            after/1week: #done book
+
+            group #tech tech
+                2025-04-01/1month: #todo hoge
+                2025-05-01/1month: #todo hoge
+                2025-06-01/1month: #todo hoge
+            endGroup
+        endGroup
+    endSection
+
+    section #quarter q3
+        2025-07-01/2025-09-30: #quarter Q3
+
+        // study
+        group #study study
+            group #tech tech
+                2025-07-01/2025-07-07: #todo todo
+            endGroup
+
+            group #english english
+                2025-07-01/2025-07-07: #todo todo
+            endGroup
+        endGroup
+
+        group #book books
+            2025-07-01/1week: #wip book
+            after/1week: #todo book
+            after/1week: #done book
+
+            group #tech tech
+                2025-07-01/1month: #todo hoge
+                2025-08-01/1month: #todo hoge
+                2025-09-01/1month: #todo hoge
+            endGroup
+        endGroup
+    endSection
+
+    section #quarter q4
+        2025-10-01/2025-12-31: #quarter Q4
+
+        // study
+        group #study study
+            group #tech tech
+                2025-10-01/2025-10-07: #todo todo
+            endGroup
+
+            group #english english
+                2025-10-01/2025-10-07: #todo todo
+            endGroup
+        endGroup
+
+        group #book books
+            2025-10-01/1week: #wip book
+            after/1week: #todo book
+            after/1week: #done book
+
+            group #tech tech
+                2025-10-01/1month: #todo hoge
+                2025-11-01/1month: #todo hoge
+                2025-12-01/1month: #todo hoge
+            endGroup
+        endGroup
+    endSection
+endSection
