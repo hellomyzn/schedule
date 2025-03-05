@@ -1,0 +1,18 @@
+title: schedule
+section 2025
+  group study
+    group tech
+      2024-01-01/2024-01-14: 要件の整理 #requirements_definition
+      2024-01-15/2024-02-04: 設計 #hoge 
+        - [x] タスク1
+        - [x] タスク2
+        - [ ] タスク3
+    endGroup
+    group english
+      2 days: イベント3 #baz
+      after/2 days: イベント4 #qux
+    endGroup
+  endGroup
+endSection
+
+every 1 week: 1週間ごとに繰り返す #foo

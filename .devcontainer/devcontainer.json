@@ -1,0 +1,23 @@
+{
+    "name": "markwhen",                    // VScodeがコンテナに接続したときのタイトルを自由に設定
+    "dockerComposeFile": "../docker-compose.yml",  // docker-conpose.ymlファイルを指定
+    "service": "markwhen",                        // docker-conpose.ymlファイル内に記載したサービス名を指定
+    "workspaceFolder": "/app",         // VScode接続時に開くフォルダを指定
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "oderwat.indent-rainbow",
+                "streetsidesoftware.code-spell-checker",
+                "vscodevim.vim",
+                "esbenp.prettier-vscode",
+                "WakaTime.vscode-wakatime",
+                // Markdown
+                "shd101wyy.markdown-preview-enhanced",
+                "yzhang.markdown-all-in-one",
+                // Markwhen
+                "Markwhen.markwhen"
+
+            ]
+        }
+    }
+}

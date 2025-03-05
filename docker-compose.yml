@@ -1,0 +1,22 @@
+version: '3.6'
+services:
+  markwhen:
+    build: 
+      context: .
+      dockerfile: ./infra/docker/markwhen/Dockerfile
+    container_name: markwhen
+    hostname: markwhen
+    ports:
+      - target: 3000
+        published: ${MW_PUBLISHED_PORT:-3210}
+        protocol: tcp
+        mode: host
+    volumes:
+      - type: bind
+        source: ./src
+        target: /app
+    tty: true
+    environment:
+      - TZ=Asia/Tokyo
+    ports:
+      - "3000:3000"
