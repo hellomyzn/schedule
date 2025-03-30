@@ -8,14 +8,11 @@ section #year 2025
         // study
         group #study study
             group #tech tech
-                2025-03-25/2025-03-26: #wip Java入門講座 on youtube
-                2025-03-27/2025-03-28: #todo Spring Boot API 開発
-                2025-03-28/2025-03-31: #todo マイクロサービス開発 Spring Boot
-
+                2025-03-25/2025-03-31: #done Java入門講座 on youtube
             endGroup
 
             group #english english
-                2025-03-06/2025-03-13: #todo distinction 1
+                2025-03-06/2025-04-14: #wip distinction 1
             endGroup
         endGroup
 
@@ -35,6 +32,8 @@ section #year 2025
         // study
         group #study study
             group #tech tech
+                2025-03-31/2025-04-02: #todo Spring Boot API 開発
+                2025-03-28/2025-03-31: #todo マイクロサービス開発 Spring Boot
                 2025-03-06/2025-03-13: #todo 電子記事販売WebアプリケーションをNext.jsをフル活用して実践力を身に着けるWeb開発マスター講座
                 2025-03-13/2025-03-19: #todo Next.jsアプリを作成する App Router
             endGroup
