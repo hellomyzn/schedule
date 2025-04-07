@@ -12,13 +12,13 @@ section #year 2025
             endGroup
 
             group #english english
-                2025-03-06/2025-04-14: #wip distinction 1
+                2025-03-06/2025-04-21: #wip distinction 1
             endGroup
         endGroup
 
         // books
         group #book books
-            2025-02-24/6week: #wip ゆるストイック――ノイズに邪魔されず１日を積み上げる思考
+            2025-02-24/2025-04-14: #wip ゆるストイック――ノイズに邪魔されず１日を積み上げる思考
 
             group #tech tech
                 2025-03-01/2month: #wip オブジェクト設計スタイルガイド
@@ -33,7 +33,8 @@ section #year 2025
         group #study study
             group #tech tech
                 2025-03-31/2025-04-01: #done Spring Boot API 開発
-                2025-04-02/2025-04-05: #wip マイクロサービス開発 Spring Boot
+                2025-04-08/2025-04-21: #wip Spring徹底入門 第2版 Spring FrameworkによるJavaアプリケーション開発 
+                2025-04-14/2025-04-21: #todo マイクロサービス開発 Spring Boot
                 2025-03-06/2025-03-13: #todo 電子記事販売WebアプリケーションをNext.jsをフル活用して実践力を身に着けるWeb開発マスター講座
                 2025-03-13/2025-03-19: #todo Next.jsアプリを作成する App Router
             endGroup
