@@ -18,7 +18,7 @@ section #year 2025
 
         // books
         group #book books
-            2025-02-24/2025-04-14: #wip ゆるストイック――ノイズに邪魔されず１日を積み上げる思考
+            2025-02-24/2025-04-08: #wip ゆるストイック――ノイズに邪魔されず１日を積み上げる思考
 
             group #tech tech
                 2025-03-01/2month: #wip オブジェクト設計スタイルガイド
@@ -45,8 +45,7 @@ section #year 2025
         endGroup
 
         group #book books
-            2025-04-01/1week: #wip book
-            2025-04-01/1week: #wip 科学的に自分を思い通りに動かす セルフコントロール大全
+            2025-04-08/1week: #wip 科学的に自分を思い通りに動かす セルフコントロール大全
             after/1week: #todo 「人生が充実する」時間のつかい方 UCLAのMBA教授が教える“いつも時間に追われる自分”をやめるメソッド 
             after/1week: #todo 限りある時間の使い方
             after/1week: #todo いつも「時間がない」あなたに　欠乏の行動経済学 
